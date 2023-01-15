@@ -107,9 +107,9 @@ ul { line-height: 2; }
 
 .parallax-window {
     margin-bottom: 0px;
-    min-height: 250px;
     background: transparent;
     max-width: 100%;
+    height: 250px;
 }
 
 .jp-intro-text { font-size: 2.6rem;
