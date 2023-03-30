@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-​<urlset xlmns="http://www.sitemaps.org/schemas/sitemap/0.9" >
+​<urlset 
+xlmns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
 
 <url>
 <loc>https://zlotnik-janpaluszkiewicz.pl/</loc>
@@ -30,6 +33,22 @@
 <loc>https://zlotnik-janpaluszkiewicz.pl/ogloszenie</loc>
 <lastmod>2023-03-30</lastmod>
 <priority>0.5</priority>
+</url>
+
+<url>
+<video:video>
+<video:thumbnail_loc>http://www.dowolnadomena.com/media/miniaturka_twojego_filmu.jpg</video:thumbnail_loc>
+<video:title>Autoplay</video:title>
+<video:description>Film autoplay na stronie głównej</video:description>
+<video:content_loc>
+https://zlotnik-janpaluszkiewicz.pl/img/kogut-autoplay.mp4
+</video:content_loc>
+<video:player_loc>
+https://zlotnik-janpaluszkiewicz.pl/index.html
+</video:player_loc>
+<video:expiration_date>2023-03-30T19:20:30+08:00</video:expiration_date>
+<video:publication_date>2023-03-30T19:20:30+08:00</video:publication_date>
+</video:video>
 </url>
 
 </urlset>
