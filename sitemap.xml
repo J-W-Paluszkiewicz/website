@@ -35,15 +35,11 @@
 <url>
 <loc>https://zlotnik-janpaluszkiewicz.pl/</loc>
 <video:video>
-<video:thumbnail_loc>http://www.dowolnadomena.com/media/miniaturka_twojego_filmu.jpg</video:thumbnail_loc>
+<video:thumbnail_loc>https://zlotnik-janpaluszkiewicz.pl/img/kogut-autoplay.mp4</video:thumbnail_loc>
 <video:title>Autoplay</video:title>
 <video:description>Film autoplay na stronie głównej</video:description>
-<video:content_loc>
-https://zlotnik-janpaluszkiewicz.pl/img/kogut-autoplay.mp4
-</video:content_loc>
-<video:player_loc>
-https://zlotnik-janpaluszkiewicz.pl/index.html
-</video:player_loc>
+<video:content_loc>https://zlotnik-janpaluszkiewicz.pl/img/kogut-autoplay.mp4</video:content_loc>
+<video:player_loc>https://zlotnik-janpaluszkiewicz.pl/index.html</video:player_loc>
 <video:expiration_date>2023-03-30T19:20:30+08:00</video:expiration_date>
 <video:publication_date>2023-03-30T19:20:30+08:00</video:publication_date>
 </video:video>
