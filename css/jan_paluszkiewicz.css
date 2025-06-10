@@ -21,25 +21,30 @@ a:hover {
 
 button {
 	box-shadow: 0px 10px 14px -7px #251d15;
-	background:linear-gradient(to bottom, #251d15 5%, #4d3f31 100%);
+  background:linear-gradient(to bottom, #4d3f31 5%, #251d15 100%);
 	background-color:#251d15;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:20px;
 	font-weight:bold;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #251d15;
 }
 button:hover {
-	background:linear-gradient(to bottom, #4d3f31 5%, #251d15 100%);
+	background:linear-gradient(to bottom, #251d15 5%, #4d3f31 100%);
 	background-color:#4d3f31;
 }
 button:active {
 	position:relative;
 	top:1px;
+}
+.buttonjp{
+  margin-top: 5px;
+  font-size:16px;
+  height: 35px;
+
 }
 
 p, address {
@@ -57,7 +62,9 @@ ul { line-height: 2; }
     margin: 0 auto;
 }
 
-.container-fluid { max-width: 1570px; }
+.container-fluid {
+  margin-top: 30px; 
+  max-width: 1570px; }
 
 .jp-site-header {
     background-color: #474849;
@@ -749,10 +756,17 @@ select:not([multiple]) {
 }
 
 .jp-box-img{
-   margin-top: 30px;
+   margin-top: 45px;
    margin-bottom: 30px;
    max-width: 80%;
 }
+
+.jp-box-txt{
+  margin-top: 30px;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
 .text-justify{
   text-align: justify;
 }
@@ -762,10 +776,11 @@ select:not([multiple]) {
   box-sizing: border-box;
   bottom: 0;
   opacity: 0;
-  padding: 20px 170px 10px 20px;
+  padding: 10px 160px 10px 10px;
   position: fixed;
   width: 100%;
   z-index: -1;
+  font-size: 13px;
 }
 
 .compsoul-cookies.active {
@@ -798,6 +813,8 @@ select:not([multiple]) {
   top: 50%;
   transform: translate(0, -50%);
   width: 120px;
+  height: 35px;
+  font-size:13px;
 }
 
 @keyframes hidden {
