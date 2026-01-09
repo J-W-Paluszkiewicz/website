@@ -10,22 +10,22 @@
 <url>
   <loc>https://zlotnik-janpaluszkiewicz.pl/</loc>
   <lastmod>2025-06-10</lastmod>
-  <priority>1.00</priority>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://zlotnik-janpaluszkiewicz.pl/premium</loc>
   <lastmod>2026-01-09</lastmod>
-  <priority>1.00</priority>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://zlotnik-janpaluszkiewicz.pl/portfolio</loc>
   <lastmod>2025-06-10</lastmod>
-  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>https://zlotnik-janpaluszkiewicz.pl/kontakt</loc>
   <lastmod>2025-06-10</lastmod>
-  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
 </url>
 
 </urlset>
