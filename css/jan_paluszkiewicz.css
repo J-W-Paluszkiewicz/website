@@ -15,8 +15,30 @@ a {
 }
 
 a:hover {
-  color: #eeeeee;
+  color: #4d3f31;
   text-decoration: none;
+}
+
+a.buttonjp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #4d3f31;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+a.buttonjp:hover {
+  background-color: #251d15;
+}
+
+a.buttonjp svg {
+  margin-left: 8px;
 }
 
 button {
