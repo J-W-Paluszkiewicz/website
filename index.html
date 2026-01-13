@@ -17,6 +17,13 @@
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://www.google-analytics.com">
 
+    <!-- Critical CSS -->
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+
     <!-- Preload -->
     <link rel="preload" href="css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="fontawesome/css/all.min.css" as="style" onload="this.rel='stylesheet'">
@@ -115,14 +122,16 @@
     </video>
     <div class="video-overlay header-text">
         <div class="caption jp-intro-text">
-          <iframe scrolling="no" style="height: 300px; overflow:scroll; width: 350px; border: 0px;" src="ogloszenie.html" title="Ogłoszenie informacyjne"></iframe>
+          <div class="iframe-wrapper">
+            <iframe scrolling="no" style="height: 300px; overflow:scroll; width: 350px; border: 0px;" src="ogloszenie.html" title="Ogłoszenie informacyjne"></iframe>
+          </div>
         </div>
     </div>
 </div>
 
     <div class="container-fluid">
       <section class="row jp-mb-1">
-        <h1 class="col-12 text-center"><b>Jan Paluszkiewicz | Usługi złotnicze i jubilerskie oraz biżuteria na zamówienie</b></h1>
+        <h1 class="col-12 text-center" ><b>Jan Paluszkiewicz | Usługi złotnicze i jubilerskie oraz biżuteria na zamówienie</b></h1>
         <h2 class="col-12 text-center jp-h3">Oferuję wszelkie usługi złotnicze i jubilerskie na zamówienie, wykonywane ręcznie, tradycyjnymi technikami. Biżuteria na zamówienie wraz z projektem.</h2>
       </section>
     </div>
